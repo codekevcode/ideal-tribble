@@ -1,7 +1,16 @@
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .active>.nav-link:focus, .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .open>.nav-link:focus, .navbar-light .navbar-nav .open>.nav-link:hover {
+    color: white;
+}
+.collapse {
+
+    display:block;
+}
 
 
-body{
-   text-overflow: ellipsis; 
+.bg-faded li {
+    display: block;
+    padding: .5em 1em;
+    border-radius: .25rem;
 }
 .navbar-toggler {
     padding: .5rem .75rem;
@@ -32,7 +41,7 @@ body{
     background-color: #123165;
 }
 .jumbotron {
-   background-image: url(../images/header-min.jpg);
+   background-image: url(../header-min.jpg);
    background-repeat:no-repeat;
    background-size:cover;
    background-position:top left,center 0;
@@ -161,6 +170,17 @@ h1.heading {
   margin-right: 0px;
 
 }
+
+.nav-pills .nav-item+.nav-item {
+    margin-left: .2rem;
+    width: 100%;
+}
+.collapse li {
+  display: none;
+}
+.collapse.in li {
+  display: block;
+}
 }
 
 /* iPhone 6 Landscape----------- */
@@ -190,6 +210,12 @@ h1{
 }
 h1{
   font-size: 2rem;
+}
+
+
+.nav-pills .nav-item+.nav-item {
+    margin-left: .2rem;
+    width: 100%;
 }
 }
 

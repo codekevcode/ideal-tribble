@@ -1,0 +1,6 @@
+[17-Oct-2016 18:32:04 UTC] PHP Parse error:  syntax error, unexpected 'action' (T_STRING) in /home/ubuntu/workspace/wp-content/themes/healthystart/functions.php on line 11
+[17-Oct-2016 18:32:04 UTC] PHP Stack trace:
+[17-Oct-2016 18:32:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[17-Oct-2016 18:32:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[17-Oct-2016 18:32:04 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[17-Oct-2016 18:32:04 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
