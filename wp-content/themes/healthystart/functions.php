@@ -1,8 +1,9 @@
-function wpbootstrap_scripts_with_jquery()
-{
-    // Register the script like this for a theme:
-    wp_enqueue_script( 'bootstrap.min.js', get_stylesheet_directory_uri() . '/bootstrap.min.js', array( 'jquery' ) );
-
+<?php
+function startwordpress_scripts() {
+	
+	wp_enqueue_style( 'index', get_template_directory_uri() . '/css/index.css' );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.6', true );
 }
 
-add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
+add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
+?>
